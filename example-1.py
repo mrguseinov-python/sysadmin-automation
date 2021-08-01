@@ -24,4 +24,4 @@ for file in files:
             for permition in ["R", "W", "X"]
             if mode & getattr(stat, f"S_I{permition}{level}")
         ]
-        print(f"{level} permitions: {permitions}")
+        print(f"{level} permissions: {permitions}")
