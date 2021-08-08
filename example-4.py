@@ -8,7 +8,7 @@ import sys
 from PIL import Image, UnidentifiedImageError
 
 if len(sys.argv) != 3:
-    print("Usage: 'example-1.py <directory-with-images> <max-side-pixels>'.")
+    print("Usage: 'example-4.py <directory-with-images> <max-side-pixels>'.")
     sys.exit()
 
 raw_directory = sys.argv[1]
